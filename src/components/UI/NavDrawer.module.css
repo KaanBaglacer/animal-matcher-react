@@ -1,0 +1,37 @@
+.drawer {
+   position: relative;
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.toggleButton {
+   background-color: #333;
+   color: white;
+   border: none;
+   padding: 8px 16px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.drawerContent {
+   position: absolute;
+   margin-top: 10px;
+   top: 100%;
+   right: 0;
+   z-index: 1;
+   background-color: white;
+   border: 1px solid #ddd;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   padding: 16px;
+   min-width: 200px;
+}
+
+.closeButton {
+   background-color: #333;
+   color: white;
+   border: none;
+   padding: 8px 16px;
+   font-size: 16px;
+   cursor: pointer;
+   float: right;
+}
